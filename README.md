@@ -1,2 +1,2 @@
 # Snake
-Play the classic snake game [here](http://google.com)
+Play the classic snake game [here](http://rossnhi.github.io/Snake/)
