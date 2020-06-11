@@ -41,7 +41,7 @@ class Snake {
   }
   
   gameOver() {
-    if (30 < this.history[0][1] || this.history[0][1] < 0 || 30 < this.history[0][0] || this.history[0][0] < 0 ) {
+    if (30 < this.history[0][1] || this.history[0][1] < 1 || 30 < this.history[0][0] || this.history[0][0] < 1 ) {
       return(true); 
     }
     if (this.length > 1) {
