@@ -30,7 +30,7 @@ function draw() {
   if (snake.gameOver()) {
     fill(200);
     textSize(60);
-    text("GAME OVER!", 120, 320);
+    text("GAME OVER! :(", 120, 320);
     textSize(20);
     text("Press \"Y\" to play again", 200, 345);
   }
