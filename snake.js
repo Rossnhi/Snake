@@ -37,7 +37,8 @@ class Snake {
   displayScore(){
     fill(200, 80);
     textSize(20);
-    text("Score: " + str(this.length - 1), 480, 30);
+    text("Score: " + str(this.length - 1), 480, 50);
+    text("High Score: 100 (Mayank)", 430, 25);
   }
   
   gameOver() {
