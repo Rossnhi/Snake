@@ -6,6 +6,8 @@ let pause;
 
 function setup() {
   frameRate(6);
+  textSize(55);
+  text("High score:");
   createCanvas(600, 600);
   
   let s = createA("https://github.com/Rossnhi/Snake","Scource code");
