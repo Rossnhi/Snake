@@ -7,7 +7,7 @@ let pause;
 function setup() {
   frameRate(6);
   let h = createP("High Score: 100 (Mayank) :3");
-  h.position(450,0);
+  h.position(450,150);
   createCanvas(600, 600);
   
   let s = createA("https://github.com/Rossnhi/Snake","Scource code");
