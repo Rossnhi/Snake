@@ -3,11 +3,13 @@ html, body {
   padding : 0;
 }
 canvas {
-	position: absolute;
-	width: 600px;
-	height: 600px;
-	left: 50%;
-	top: 50%;
-	margin-left: -300px; /* This is half the width */
-	margin-top: -300px; /* This is half the height */
+	display: block;
+	margin: auto;
+	margin-top: calc(50vh - 300px);
+}
+
+a {	display: inline-block;
+	position: relative;
+	top: 10px;
+	margin-left: calc(50% - 55px);
 }
