@@ -9,7 +9,6 @@ function setup() {
   createCanvas(600, 600);
   
   let s = createA("https://github.com/Rossnhi/Snake","Scource code");
-  s.position(420, 730);
   
   row = height/gridScale;
   col = width/gridScale;
